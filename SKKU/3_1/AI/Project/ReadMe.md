@@ -4,14 +4,20 @@ TF-IDF algorithm was used to get feature of each document <br>
 And implemented neural network using Keras <br>
 I did some experiments and analized their results.
 </body>
-
-
-nlp_0 ~ nlp_6 코드들은 각 해당되는 index의 주피터 노트북의 원본 코드들입니다.
-
-NLP_fiinal_preprocessing 은 전처리를 하는데 사용된 코드이며,
-
-NLP_functions
-NLP_keras_evaluation
-NLP_MLP_functions
-
-는 필요한 함수들을 따로 구현해놓은 파일들입니다.
+# Contents
+## NLP_final_preprocessing 
+<body> 
+Codes used for preprocessing
+</body>
+## (IDX)_NLP_(Version Explain).md + (IDX)_NL_(Version Explain)_eval.md
+<body>
+I did some experiments and analized their results on eval.md.
+</body>
+## nlp_0 ~ nlp_6
+<body>
+The original codes used for making jupyter notebooks
+</body>
+## NLP_functions / NLP_keras_evaluation / NLP_MLP_functions
+<body>
+Codes I made for preprocessing & Evaluating Results  
+</body>
