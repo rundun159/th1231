@@ -1,8 +1,8 @@
 # This project was to classify documents.
 <p>
-TF-IDF algorithm was used to get feature of each document <br>
-And implemented neural network using Keras <br>
-I did some experiments and analized their results. <br>
+TF-IDF algorithm was used to get feature of each document 
+And implemented neural network using Keras 
+I did some experiments and analized their results. 
 </p>
 # Contents.
 ## NLP_final_preprocessing 
