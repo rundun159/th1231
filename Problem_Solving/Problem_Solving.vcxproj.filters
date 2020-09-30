@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Trie">
+      <UniqueIdentifier>{e46d8aad-0f71-4977-b229-65f50b983c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3135">
+      <UniqueIdentifier>{1b6a9d3f-7eff-424c-8fe3-27e8271f5085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\sw">
+      <UniqueIdentifier>{d7f7fe9b-7c37-469f-8508-fd6fef84d60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\kako">
+      <UniqueIdentifier>{9108fe05-a62d-4a50-9ed3-c65370482598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NPC">
+      <UniqueIdentifier>{b9d2e883-a7d0-42a0-8605-17da5bd5ba6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MP">
+      <UniqueIdentifier>{fecd7b99-0459-4a92-aa3b-2407a000d884}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="9094.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9092.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4112.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Trie.cpp">
+      <Filter>소스 파일\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="Trie_Test.cpp">
+      <Filter>소스 파일\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="3135_main.cpp">
+      <Filter>소스 파일\3135</Filter>
+    </ClCompile>
+    <ClCompile Include="3135_user.cpp">
+      <Filter>소스 파일\3135</Filter>
+    </ClCompile>
+    <ClCompile Include="7673.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8191.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14427.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13460.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="12100.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="3190.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="13458.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="14499.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="14500.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="14501.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="14502.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="14888.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="14890.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="14891.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="4811.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="3184.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="5014.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="12886.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="14442.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="10026.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="15685.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="12869.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="2290.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="14225.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="15683.cpp">
+      <Filter>소스 파일\sw</Filter>
+    </ClCompile>
+    <ClCompile Include="2020_1.cpp">
+      <Filter>소스 파일\kako</Filter>
+    </ClCompile>
+    <ClCompile Include="200904_1.cpp">
+      <Filter>소스 파일\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="200904_2.cpp">
+      <Filter>소스 파일\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="200904_3.cpp">
+      <Filter>소스 파일\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="week1.cpp">
+      <Filter>소스 파일\MP</Filter>
+    </ClCompile>
+    <ClCompile Include="8983.cpp">
+      <Filter>소스 파일\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="2481.cpp">
+      <Filter>소스 파일\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="9460.cpp">
+      <Filter>소스 파일\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="1350.cpp">
+      <Filter>소스 파일\NPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Trie.h">
+      <Filter>소스 파일\Trie</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

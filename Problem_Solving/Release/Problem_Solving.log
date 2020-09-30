@@ -1,0 +1,6 @@
+﻿  sw1.cpp
+C:\Users\xogud\source\repos\Problem_Solving\Problem_Solving\sw1.cpp(21,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\xogud\source\repos\Problem_Solving\Problem_Solving\sw1.cpp(36,1): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(243): message : 'freopen' 선언을 참조하십시오.
+C:\Users\xogud\source\repos\Problem_Solving\Problem_Solving\sw1.cpp(37,1): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(243): message : 'freopen' 선언을 참조하십시오.

@@ -1,0 +1,5 @@
+﻿  1350.cpp
+C:\Users\xogud\source\repos\Problem_Solving\Problem_Solving\1350.cpp(11,1): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(243): message : 'freopen' 선언을 참조하십시오.
+C:\Users\xogud\source\repos\Problem_Solving\Problem_Solving\1350.cpp(32,6): warning C4101: 'l' :참조되지 않은 지역 변수입니다.
+  Problem_Solving.vcxproj -> C:\Users\xogud\source\repos\Problem_Solving\Debug\Problem_Solving.exe
