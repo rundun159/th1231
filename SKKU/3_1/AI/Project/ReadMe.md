@@ -1,23 +1,23 @@
 # This project was to classify documents.
-<body>
+<div>
 TF-IDF algorithm was used to get feature of each document <br>
 And implemented neural network using Keras <br>
 I did some experiments and analized their results. <br>
-< / body>
+</div>
 # Contents
 ## NLP_final_preprocessing 
-<body> 
+<div> 
 Codes used for preprocessing
-</body>
+</div>
 ## (IDX)_NLP_(Version Explain).md + (IDX)_NL_(Version Explain)_eval.md
-<body>
+<div>
 I did some experiments and analized their results on eval.md.
-</body>
+</div>
 ## nlp_0 ~ nlp_6
-<body>
+<div>
 The original codes used for making jupyter notebooks
-</body>
+</div>
 ## NLP_functions / NLP_keras_evaluation / NLP_MLP_functions
-<body>
+<div>
 Codes I made for preprocessing & Evaluating Results  
-</body>
+</div>
