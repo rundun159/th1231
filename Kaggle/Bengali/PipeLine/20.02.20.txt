@@ -1,0 +1,19 @@
+<오늘>
+0.9696 커널 뜯어보기
+	ConVolution Depth, Activation Fucntion 종류, 	
+	transfer learning (모델 출처 알아보기. ImageNet의 어떤 모델들이 있는지.  )
+	
+벵골어 분석 
+
+<Long Term>
+
+
+
+
+Ref)
+https://arxiv.org/html/1902.11133
+Bengali Handwritten Character Classification using Transfer Learning on Deep Convolutional Neural Network
+
+
+https://ieee-dataport.org/documents/assamese-handwritten-digits
+아삼어 Handwritten Digits
