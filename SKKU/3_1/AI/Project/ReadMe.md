@@ -7,19 +7,19 @@ I did some experiments and analized their results. <br>
 <h1>
 Contents.
   </h1>
-## NLP_final_preprocessing 
-<div> 
+<h2> NLP_final_preprocessing </h2>
+<p> 
 Codes used for preprocessing
-</div>
-## (IDX)_NLP_(Version Explain).md + (IDX)_NL_(Version Explain)_eval.md
-<div>
+</p>
+<h2> (IDX)_NLP_(Version Explain).md + (IDX)_NL_(Version Explain)_eval.md </h2>
+<p>
 I did some experiments and analized their results on eval.md.
-</div>
-## nlp_0 ~ nlp_6
-<div>
+</p>
+<h2> nlp_0 ~ nlp_6 </h2>
+<p>
 The original codes used for making jupyter notebooks
-</div>
-## NLP_functions / NLP_keras_evaluation / NLP_MLP_functions
-<div>
+</p>
+<h2> NLP_functions / NLP_keras_evaluation / NLP_MLP_functions </h2>
+<p>
 Codes I made for preprocessing & Evaluating Results  
-</div>
+</p>
