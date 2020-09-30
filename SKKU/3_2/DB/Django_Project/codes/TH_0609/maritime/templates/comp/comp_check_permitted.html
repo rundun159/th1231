@@ -1,0 +1,81 @@
+<h1>
+    Company name : {{ comp.comp_name }}
+</h1>
+<!-- mates -->
+{% if not all_mates %}
+<h1>
+    Mate Empty
+</h1>
+{% else %}
+<h1>
+    Mate
+</h1>
+<ul>
+{% for mate in all_mates %}
+    <li>
+        Name : {{ mate.mate_name }}    Gender : {{ mate.gender }}    Age : {{ mate.age }}
+    </li>
+{% endfor %}
+</ul>
+{% endif %}
+ <!-- engineers -->
+{% if not all_engs %}
+<h1>
+    Engineer Empty
+</h1>
+{% else %}
+<h1>
+    Engineer
+</h1>
+<ul>
+{% for eng in all_engs %}
+    <li>
+        Name : {{ eng.eng_name }}    Gender : {{ eng.gender }}    Age : {{ eng.age }}
+    </li>
+{% endfor %}
+</ul>
+{% endif %}
+ <!-- ships -->
+{% if not all_ships %}
+<h1>
+    Ship Empty
+</h1>
+{% else %}
+<h1>
+    Ship
+</h1>
+<ul>
+{% for ship in all_ships %}
+    <li>
+        Name : {{ ship.ship_name }}    Age : {{ ship.age }}
+    </li>
+{% endfor %}
+</ul>
+{% endif %}
+ <!-- plans -->
+{% if not all_plans %}
+<h1>
+    Plan Empty
+</h1>
+{% else %}
+<h1>
+    Plan
+</h1>
+<ul>
+{% for plan in all_plans %}
+    <li>
+        Departure port : {{ plan.plan_port1.port_name }} Arrival port : {{ plan.plan_port2.port_name }}
+        Departure Date : {{ plan.departure }} Arrival port : {{ plan.arrival }}
+        Ship : {{ plan.plan_ship.ship_name }}
+    </li>
+{% endfor %}
+</ul>
+{% endif %}
+<hr>
+<form action = "/maritime/{{ comp.comp_name }}/comp_main/" method="get">
+    {% csrf_token %}
+    <h1>
+        Go to Company Main Page
+    </h1>
+    <button type="submit">Go</button>
+</form>

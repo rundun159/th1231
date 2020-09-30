@@ -1,0 +1,36 @@
+<h1>
+    Government's main page
+</h1>
+<hr>
+<form action = "/maritime/gov_check_submitted/" method="get">
+    {% csrf_token %}
+    <h1>
+        Check Submitted Data
+    </h1>
+    <button type="submit">Check</button>
+</form>
+<hr>
+<form action = "/maritime/gov_check_permitted/" method="get">
+    {% csrf_token %}
+    <h1>
+        Check Permitted Data
+    </h1>
+    <button type="submit">Check</button>
+</form>
+<hr>
+<form action = "/maritime/gov_add_new_port/" method="get">
+    {% csrf_token %}
+    <h1>
+        Add New Port
+    </h1>
+    <button type="submit">Go</button>
+</form>
+<hr>
+<form action = "/maritime/maritime_main/" method="get">
+    {% csrf_token %}
+    <h1>
+        Go to Maritime Main Page
+    </h1>
+    <button type="submit">Go</button>
+</form>
+<hr>

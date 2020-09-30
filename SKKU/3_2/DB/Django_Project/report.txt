@@ -1,0 +1,12 @@
+1. Home Page / Government Page / Company Page
+2. SignUP / SignIN /  as a Company
+
+3. Company Main Page / Submit New Data / Check Rejected / Check Permitted / SignOut ( go to maritime Main Page)
+4. Submit New Data / Submit new mate / submit new Eng / Submit New Ship / Submit New Plan 
+5. Check Permitted / Check all the Data of the company 
+6. Check Rejected / Check all the data Government rejected
+
+7. Government Main Page / Check Submitted Data / Check Permitted Data / Add New Data / Go to main page 
+8. Check Submitted Data / Check all the Data Company submitted
+9. Check Permitted Data / Check all the Data
+10. Add New Port / Add new Port

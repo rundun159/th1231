@@ -1,0 +1,35 @@
+<h1>
+    Company {{ comp_name}}  main page
+</h1>
+<hr>
+<form action = "/maritime/{{ comp_name }}/comp_enroll_select/" method="get">
+    {% csrf_token %}
+    <h1>
+        submit new Data
+    </h1>
+    <button type="submit">Enroll</button>
+</form>
+<hr>
+<form action = "/maritime/{{ comp_name }}/comp_check_rejected/" method="get">
+    {% csrf_token %}
+    <h1>
+        Check Rejected
+    </h1>
+    <button type="submit">Check</button>
+</form>
+<hr>
+<form action = "/maritime/{{ comp_name }}/comp_check_permitted/" method="get">
+    {% csrf_token %}
+    <h1>
+        Check Permitted
+    </h1>
+    <button type="submit">Check</button>
+</form>
+<hr>
+<form action = "/maritime/maritime_main/" method="get">
+    {% csrf_token %}
+    <h1>
+        Go to Martime Main Page
+    </h1>
+    <button type="submit">Check</button>
+</form>

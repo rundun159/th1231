@@ -1,0 +1,163 @@
+<!-- mates -->
+{% if not all_mates %}
+<h1>
+    Mate Empty
+</h1>
+{% else %}
+<h1>
+    Mate
+</h1>
+
+<table class="table_mates_rejected">
+    <thead>
+    <tr>
+        <td><B>Name</B></td>
+        <td><B>gender</B></td>
+        <td><B>age</B></td>
+    </tr>
+    </thead>
+    <tbody>
+    {% for mate in all_mates %}
+    <tr>
+        <td> {{ mate.mate_name }}</td>
+        <td> {{ mate.gender }} </td>
+        <td> {{ mate.age }}  </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+<!-- engineers -->
+{% if not all_engs %}
+<h1>
+    Engineer Empty
+</h1>
+{% else %}
+<h1>
+    Engineer
+</h1>
+
+<table class="table_engineers_rejected">
+    <thead>
+    <tr>
+        <td><B>Name</B></td>
+        <td><B>gender</B></td>
+        <td><B>age</B></td>
+        <td><B>Comp</B></td>
+    </tr>
+    </thead>
+    <tbody>
+    {% for eng in all_engs %}
+    <tr>
+        <td> {{ eng.eng_name }}</td>
+        <td> {{ eng.gender }} </td>
+        <td> {{ eng.age }}  </td>
+        <td> {{ eng.eng_comp.comp_name }}  </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+<!-- ships -->
+{% if not all_ships %}
+<h1>
+    Ships Empty
+</h1>
+{% else %}
+<h1>
+    Ship
+</h1>
+
+<table class="table_ships_submitted">
+    <thead>
+    <tr>
+        <td><B>Name</B></td>
+        <td><B>age</B></td>
+        <td><B>Comp</B></td>
+    </tr>
+    </thead>
+    <tbody>
+    {% for ship in all_ships %}
+    <tr>
+        <td> {{ ship.ship_name }}</td>
+        <td> {{ ship.age }} </td>
+        <td> {{ ship.ship_comp.comp_name }} </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+<!-- plans -->
+{% if not all_plans %}
+<h1>
+    Plan Empty
+</h1>
+{% else %}
+<h1>
+    Plan
+</h1>
+
+<table class="table_ships_submitted">
+    <thead>
+    <tr>
+        <td><B>Departure</B></td>
+        <td><B>Arrival</B></td>
+        <td><B>Port1</B></td>
+        <td><B>Port2</B></td>
+        <td><B>Ship</B></td>
+        <td><B>Comp</B></td>
+    </tr>
+    </thead>
+    <tbody>
+    {% for plan in all_plans %}
+    <tr>
+        <td> {{ plan.departure }}</td>
+        <td> {{ plan.arrival }}</td>
+        <td> {{ plan.plan_port1.port_name }}</td>
+        <td> {{ plan.plan_port2.port_name }}</td>
+        <td> {{ plan.plan_ship.ship_name }}</td>
+        <td> {{ plan.plan_comp.comp_name }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% if not all_ports %}
+<h1>
+    Port Empty
+</h1>
+{% else %}
+<h1>
+    Port
+</h1>
+
+<table class="table_ships_submitted">
+    <thead>
+    <tr>
+        <td><B>Port NAme</B></td>
+    </tr>
+    </thead>
+    <tbody>
+    {% for port in all_ports %}
+    <tr>
+        <td> {{ port.port_name }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+
+<hr>
+<form action = "/maritime/gov_main_page/" method="get">
+    {% csrf_token %}
+    <h1>
+        Go to Gov Main Page
+    </h1>
+    <button type="submit">Go</button>
+</form>
+<hr>
+

@@ -1,0 +1,28 @@
+<h1>
+    Company Main Home Page
+</h1>
+<hr>
+<form action = "/maritime/signup/" method="get">
+    {% csrf_token %}
+    <h1>
+        Sign up as a new company
+    </h1>
+    <button type="submit">Check</button>
+</form>
+<hr>
+<form action = "/maritime/login/" method="get">
+    {% csrf_token %}
+    <h1>
+        Log in as a company
+    </h1>
+    <button type="submit">Check</button>
+</form>
+<hr>
+<form action = "/maritime/maritime_main/" method="get">
+    {% csrf_token %}
+    <h1>
+        Go to Maritime Main Page
+    </h1>
+    <button type="submit">Go</button>
+</form>
+<hr>
