@@ -3,7 +3,7 @@
 TF-IDF algorithm was used to get feature of each document <br>
 And implemented neural network using Keras <br>
 I did some experiments and analized their results. <br>
-</body>
+< / body>
 # Contents
 ## NLP_final_preprocessing 
 <body> 
