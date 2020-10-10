@@ -1,143 +1,143 @@
-////3¹øÂ° Ç¬ »ï¼º ±âÃâ¹®Á¦.
-////¹®Á¦ ÀÌÇØ¸¦ Á¤È®È÷ ¸øÇØ¼­ ½Ã°£ÀÌ Á» °É·È´Ù.
-////F9°¡ µð¹ö±ë Áß´ÜÁ¡
-////ctrl + alt+ V > A
-////¹æÇâ ¼³Á¤ÇÏµµ·Ï move_dirÇÑ°Ç ÀßÇÑ°Í °°´Ù
-////turn_head ¼³Á¤ÇØ³õ´Â°Í¿¡¼­ ¿À·ù°¡ ÀÖ¾ú´Ù.
-////±¸ÇöÀº ±Ý¹æÇß´ø °Í °°´Ù.
-////Æ²¸°°Ô ¾ø´ÂÁö, ºüÁø°Ô ¾ø´ÂÁö ³¡±îÁö Àß º¸°í ±¸Çö ½ÃÀÛÇÏ´Â°Ô ÁÁÀº°Í °°´Ù.
-////out_of_idex¿¡·¯°¡ ¹ß»ýÇÏ´ÂÁö Àß »ý°¢ÇØº¸ÀÚ.
-////L_list¿¡¼­ ¹ß»ýÇß¾ú´Ù.
-////iterator »ç¿ëÇÏ´Â ¹æ¹ý Àß ÀÍÇô³õÀÚ
-////
+//3ï¿½ï¿½Â° Ç¬ ï¿½ï¼º ï¿½ï¿½ï¿½â¹®ï¿½ï¿½.
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¸ï¿½ ï¿½ï¿½È®ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½É·È´ï¿½.
+//F9ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß´ï¿½ï¿½ï¿½
+//ctrl + alt+ V > A
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ move_dirï¿½Ñ°ï¿½ ï¿½ï¿½ï¿½Ñ°ï¿½ ï¿½ï¿½ï¿½ï¿½
+//turn_head ï¿½ï¿½ï¿½ï¿½ï¿½Ø³ï¿½ï¿½Â°Í¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½.
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¹ï¿½ï¿½ß´ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+//Æ²ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´Â°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+//out_of_idexï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Øºï¿½ï¿½ï¿½.
+//L_listï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ï¿½ß¾ï¿½ï¿½ï¿½.
+//iterator ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //
-//#include<iostream>
-//#include<vector>
-//#include<deque>
-//
-//using namespace std;
-//int N, K, L;
-//int move_dir[4][2] = {
-//	{-1,0},{0,1},{1,0},{0,-1}
-//};
-//typedef pair<int, int> Pair_int;
-//vector<Pair_int> K_list;
-//typedef struct NODE
-//{
-//	Pair_int pos;
-//	int way;
-//	NODE()
-//	{
-//
-//	}
-//}Node;
-//
-//void turn_head(Node & node, char way)
-//{
-//	if (way == 'D')
-//	{
-//		node.way = (node.way + 1) % 4;
-//	}
-//	else
-//		node.way = (node.way + 3) % 4;
-//}
-//deque<Node*> q;
-//bool is_finished();
-//bool move_head();
-//typedef struct L_NODE
-//{
-//	int time;
-//	char way;
-//}L_node;
-//vector<L_node> L_list;
-//void print_body();
-//int main()
-//{
-//	bool is_apple;
-//	freopen("input.txt", "r", stdin);
-//	cin >> N;
-//	cin >> K;
-//	K_list = vector<Pair_int>(K);
-//	for (int i = 0; i < K; i++)
-//	{
-//		Pair_int input;
-//		cin >> input.first >> input.second;
-//		K_list[i] = input;
-//	}
-//	cin >> L;
-//	L_list = vector<L_node>(L);
-//	int L_list_idx = 0;
-//	for (int i = 0; i < L; i++)
-//	{
-//		cin >> L_list[i].time >> L_list[i].way;
-//	}
-//	int time = 1;
-//	Node* head = new Node();
-//	head->pos.first = 1;
-//	head->pos.second = 1;
-//	head->way = 1;
-//	q.push_back(head);
-//	while (1)
-//	{
-////		print_body();
-//		is_apple=move_head();
-//		if (is_finished())
-//			break;
-//		if (!is_apple)
-//		{
-//			q.pop_back();
-//		}
-//		if (L_list_idx == L_list.size())
-//		{
-//			
-//		}
-//		else if (time == L_list[L_list_idx].time)
-//		{
-//			turn_head(*q.front(), L_list[L_list_idx].way);
-//			L_list_idx++;
-//		}
-//		time++;
-//	}
-//	cout << time << endl;
-//}
-//bool is_finished()
-//{
-//	Node * head = q.front();
-//	if (head->pos.first<1 || head->pos.first>N)
-//		return true;
-//	if (head->pos.second<1 || head->pos.second>N)
-//		return true;
-//	deque<Node*>::iterator iter = q.begin();
-//	iter++;
-//	for (; iter != q.end(); iter++)
-//	{
-//		if (head->pos == (*iter)->pos)
-//			return true;
-//	}
-//	return false;
-//}
-//bool move_head()
-//{
-//	Node* newNode = new Node();
-//	newNode->way = q.front()->way;
-//	newNode->pos.first = q.front()->pos.first + move_dir[newNode->way][0];
-//	newNode->pos.second = q.front()->pos.second + move_dir[newNode->way][1];
-//	q.push_front(newNode);
-//	for(vector<Pair_int>::iterator iter=K_list.begin();iter!=K_list.end();iter++)
-//	{
-//		if (iter->first == newNode->pos.first)
-//			if (iter->second == newNode->pos.second)
-//			{
-//				K_list.erase(iter);
-//				return true;
-//			}
-//	}
-//	return false;
-//}
-//void print_body()
-//{
-//	for (deque<Node*>::iterator iter = q.begin(); iter != q.end(); iter++)
-//		cout << "( " << (*iter)->pos.first << ", " << (*iter)->pos.second << ") ";
-//	cout << endl;
-//
-//}
+
+#include<iostream>
+#include<vector>
+#include<deque>
+
+using namespace std;
+int N, K, L;
+int move_dir[4][2] = {
+	{-1,0},{0,1},{1,0},{0,-1}
+};
+typedef pair<int, int> Pair_int;
+vector<Pair_int> K_list;
+typedef struct NODE
+{
+	Pair_int pos;
+	int way;
+	NODE()
+	{
+
+	}
+}Node;
+
+void turn_head(Node & node, char way)
+{
+	if (way == 'D')
+	{
+		node.way = (node.way + 1) % 4;
+	}
+	else
+		node.way = (node.way + 3) % 4;
+}
+deque<Node*> q;
+bool is_finished();
+bool move_head();
+typedef struct L_NODE
+{
+	int time;
+	char way;
+}L_node;
+vector<L_node> L_list;
+void print_body();
+int main()
+{
+	bool is_apple;
+	freopen("input.txt", "r", stdin);
+	cin >> N;
+	cin >> K;
+	K_list = vector<Pair_int>(K);
+	for (int i = 0; i < K; i++)
+	{
+		Pair_int input;
+		cin >> input.first >> input.second;
+		K_list[i] = input;
+	}
+	cin >> L;
+	L_list = vector<L_node>(L);
+	int L_list_idx = 0;
+	for (int i = 0; i < L; i++)
+	{
+		cin >> L_list[i].time >> L_list[i].way;
+	}
+	int time = 1;
+	Node* head = new Node();
+	head->pos.first = 1;
+	head->pos.second = 1;
+	head->way = 1;
+	q.push_back(head);
+	while (1)
+	{
+//		print_body();
+		is_apple=move_head();
+		if (is_finished())
+			break;
+		if (!is_apple)
+		{
+			q.pop_back();
+		}
+		if (L_list_idx == L_list.size())
+		{
+			
+		}
+		else if (time == L_list[L_list_idx].time)
+		{
+			turn_head(*q.front(), L_list[L_list_idx].way);
+			L_list_idx++;
+		}
+		time++;
+	}
+	cout << time << endl;
+}
+bool is_finished()
+{
+	Node * head = q.front();
+	if (head->pos.first<1 || head->pos.first>N)
+		return true;
+	if (head->pos.second<1 || head->pos.second>N)
+		return true;
+	deque<Node*>::iterator iter = q.begin();
+	iter++;
+	for (; iter != q.end(); iter++)
+	{
+		if (head->pos == (*iter)->pos)
+			return true;
+	}
+	return false;
+}
+bool move_head()
+{
+	Node* newNode = new Node();
+	newNode->way = q.front()->way;
+	newNode->pos.first = q.front()->pos.first + move_dir[newNode->way][0];
+	newNode->pos.second = q.front()->pos.second + move_dir[newNode->way][1];
+	q.push_front(newNode);
+	for(vector<Pair_int>::iterator iter=K_list.begin();iter!=K_list.end();iter++)
+	{
+		if (iter->first == newNode->pos.first)
+			if (iter->second == newNode->pos.second)
+			{
+				K_list.erase(iter);
+				return true;
+			}
+	}
+	return false;
+}
+void print_body()
+{
+	for (deque<Node*>::iterator iter = q.begin(); iter != q.end(); iter++)
+		cout << "( " << (*iter)->pos.first << ", " << (*iter)->pos.second << ") ";
+	cout << endl;
+
+}

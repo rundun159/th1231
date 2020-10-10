@@ -1,68 +1,68 @@
-////public:::²À½á¾ßÇÔ
-////40ºÐ °É¸². 60% Á¤´ä·üÀÌ´Ï±î ²Ï ½¬¿î ¹®Á¦ÀÓ. 30ºÐ Á¤µµ ¾È¿¡ Çß¾î¾ß ÇÔ.
-////dfs°¡ Á» ¿À·£¸¸ÀÌ¶ó ´çÈ²ÇÑ ´À³¦Àº ÀÖ¾ú´Ù
-////²À ÇØ³õ´Â ·çÆ¾ÀÌ ¾ø¾î¼­ ±×·±°Çµ¥,
-////µé¾î°¡±â Àü¿¡ Á¶ÀÛÇÏ°í, ³ª¿Í¼­ Á¶ÀÛÇÏ´Â Åø·Î ÇØ¾ßÇÑ´Ù.
-//
-//#include<iostream>
-//#include<vector>
-//#include<limits.h>
-//#include<algorithm>
-//using namespace std;
-//class node
-//{
-//public:
-//	int min_score;
-//	int max_score;
-//	long int sum;
-//	node(int _min, int _max, int _sum):min_score(_min),max_score(_max),sum(_sum) 
-//	{
-//	}
-//};
-//int n, l, r, x;
-//int cntcase(int min_idx, int num_left, node* node);
-//vector<int> scores;
-//int main()
-//{
-//	freopen("input.txt", "r", stdin);
-//	cin >> n >> l >> r >> x;
-//	scores = vector<int>(n, 0);	
-//	for (int i = 0; i < n; i++)
-//		cin >> scores[i];
-//	sort(scores.begin(), scores.end());
-//	int sum = 0;
-//	for (int num_left = 2; num_left <= n; num_left++)
-//	{
-//		f	or (int start_idx = 0; start_idx <= n - num_left; start_idx++)
-//		{
-//			node* node = new node(scores[start_idx], 0, 0);
-//			node->sum += scores[start_idx];
-//			node->max_score = scores[start_idx];
-//			sum += cntcase(start_idx, num_left-1, node);
-//			delete(node);
-//		}
-//	}
-//	cout << sum << endl;		
-//}
-//int cntcase(int min_idx, int num_left, node* node)
-//{
-//	if (num_left == 0)
-//	{
-////		cout << node->max_score << " " << node->min_score << " " << node->sum << endl;
-//		if (node->sum >= l && node->sum <= r)
-//			if (node->max_score - node->min_score >= x)
-//				return 1;
-//		return 0;
-//	}
-//	int ret = 0;
-//	int last_idx = n - num_left;
-//	for (int idx = min_idx + 1; idx <= last_idx; idx++)
-//	{
-//		node->sum += scores[idx];
-//		node->max_score = scores[idx];
-//		ret += cntcase(idx, num_left - 1, node);
-//		node->sum -= scores[idx];
-//		node->max_score = scores[min_idx];
-//	}
-//	return ret;
-//}
+//public:::ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//40ï¿½ï¿½ ï¿½É¸ï¿½. 60% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì´Ï±ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. 30ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½È¿ï¿½ ï¿½ß¾ï¿½ï¿½ ï¿½ï¿½.
+//dfsï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ï¿½È²ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½
+//ï¿½ï¿½ ï¿½Ø³ï¿½ï¿½ï¿½ ï¿½ï¿½Æ¾ï¿½ï¿½ ï¿½ï¿½ï¿½î¼­ ï¿½×·ï¿½ï¿½Çµï¿½,
+//ï¿½ï¿½î°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½, ï¿½ï¿½ï¿½Í¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ø¾ï¿½ï¿½Ñ´ï¿½.
+
+#include<iostream>
+#include<vector>
+#include<limits.h>
+#include<algorithm>
+using namespace std;
+class node
+{
+public:
+	int min_score;
+	int max_score;
+	long int sum;
+	node(int _min, int _max, int _sum):min_score(_min),max_score(_max),sum(_sum) 
+	{
+	}
+};
+int n, l, r, x;
+int cntcase(int min_idx, int num_left, node* node);
+vector<int> scores;
+int main()
+{
+	freopen("input.txt", "r", stdin);
+	cin >> n >> l >> r >> x;
+	scores = vector<int>(n, 0);	
+	for (int i = 0; i < n; i++)
+		cin >> scores[i];
+	sort(scores.begin(), scores.end());
+	int sum = 0;
+	for (int num_left = 2; num_left <= n; num_left++)
+	{
+		f	or (int start_idx = 0; start_idx <= n - num_left; start_idx++)
+		{
+			node* node = new node(scores[start_idx], 0, 0);
+			node->sum += scores[start_idx];
+			node->max_score = scores[start_idx];
+			sum += cntcase(start_idx, num_left-1, node);
+			delete(node);
+		}
+	}
+	cout << sum << endl;		
+}
+int cntcase(int min_idx, int num_left, node* node)
+{
+	if (num_left == 0)
+	{
+//		cout << node->max_score << " " << node->min_score << " " << node->sum << endl;
+		if (node->sum >= l && node->sum <= r)
+			if (node->max_score - node->min_score >= x)
+				return 1;
+		return 0;
+	}
+	int ret = 0;
+	int last_idx = n - num_left;
+	for (int idx = min_idx + 1; idx <= last_idx; idx++)
+	{
+		node->sum += scores[idx];
+		node->max_score = scores[idx];
+		ret += cntcase(idx, num_left - 1, node);
+		node->sum -= scores[idx];
+		node->max_score = scores[min_idx];
+	}
+	return ret;
+}
