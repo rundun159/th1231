@@ -1,45 +1,45 @@
-////25ºÐ °É¸².
-////
+//25ï¿½ï¿½ ï¿½É¸ï¿½.
 //
-//#include<iostream>
-//#include<algorithm>
-//#include<vector>
-//using namespace std;
-//const int MAX_LONG =2000001;
-//int n;
-//vector<int> num_v;
-//int cache[MAX_LONG];
-//void check_Sum(int start_idx, int num_left, int sum);
-//int main()
-//{
-//	freopen("input.txt", "r", stdin);
-//	cin >> n;
-//	num_v = vector<int>(n);
-//	for (int i = 0; i < n; i++)
-//		cin >> num_v[i];
-//	for (int num_left = 1; num_left <= n; num_left++)
-//	{
-//		for (int start_idx = -1; start_idx <= n - num_left; start_idx++)
-//			check_Sum(start_idx, num_left, 0);
-//	}
-//	for(int i=1;i<MAX_LONG;i++)
-//		if (!cache[i])
-//		{
-//			cout << i << endl;
-//			return 0;
-//		}
-//}
-//void check_Sum(int start_idx, int num_left, int sum) //ÀÌ ÇÔ¼ö ÀÌÈÄ·Î num_left°³¼ö ¸¸Å­ ´õÇØÁÖ¸é µÊ. start_idx ¸¦ Á¦¿ÜÇÑ ÀÌÈÄºÎÅÍ ´õÇØÁÜ.
-//{
-//	if (num_left == 0)
-//	{
-//		cache[sum] = 1;
-//		return;
-//	}
-//	int last_idx = n - num_left;
-//	for (int next_idx = start_idx + 1; next_idx <= last_idx; next_idx++)
-//	{
-//		check_Sum(next_idx, num_left - 1, sum + num_v[next_idx]);
-//	}
-//	return;
-//}
+
+#include<iostream>
+#include<algorithm>
+#include<vector>
+using namespace std;
+const int MAX_LONG =2000001;
+int n;
+vector<int> num_v;
+int cache[MAX_LONG];
+void check_Sum(int start_idx, int num_left, int sum);
+int main()
+{
+	freopen("input.txt", "r", stdin);
+	cin >> n;
+	num_v = vector<int>(n);
+	for (int i = 0; i < n; i++)
+		cin >> num_v[i];
+	for (int num_left = 1; num_left <= n; num_left++)
+	{
+		for (int start_idx = -1; start_idx <= n - num_left; start_idx++)
+			check_Sum(start_idx, num_left, 0);
+	}
+	for(int i=1;i<MAX_LONG;i++)
+		if (!cache[i])
+		{
+			cout << i << endl;
+			return 0;
+		}
+}
+void check_Sum(int start_idx, int num_left, int sum) //ï¿½ï¿½ ï¿½Ô¼ï¿½ ï¿½ï¿½ï¿½Ä·ï¿½ num_leftï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å­ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ ï¿½ï¿½. start_idx ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Äºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+{
+	if (num_left == 0)
+	{
+		cache[sum] = 1;
+		return;
+	}
+	int last_idx = n - num_left;
+	for (int next_idx = start_idx + 1; next_idx <= last_idx; next_idx++)
+	{
+		check_Sum(next_idx, num_left - 1, sum + num_v[next_idx]);
+	}
+	return;
+}
