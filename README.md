@@ -42,7 +42,7 @@ I used Kernel SVM and I developed some kernel function optimized to this problem
 But, it didn't better. I implemented on Python using SciPy library
 </div>
 <h4>
-DB (Database>
+DB (Database)
 </h4>
 <div>
 Three works uploaded.<br>
@@ -51,7 +51,7 @@ Second one was to implement simple web page using Django.<br>
 Last one was to implement simple multi threading using Hadoop.
 </div>
 <h4>
-ML (Machine Learning>
+ML (Machine Learning)
 </h4>
 <div>
   There are four works and one term project. Works were usually done on skeleton codes. <br>
