@@ -5,10 +5,19 @@ SKKU
 <div>
 I am an undergraduate student of Sungkyunkwan University Computer Engineering major. <br>
 I have taken many courses, and here I uploaded my works I have done on lectures. <br>
+Below are explanations about works <br>
 </div>
 <h4>
 AI (Introduction to Aritificial Inteligence)
 </h4>
+<div>
+I uploaded my project. It was to classify documents. <br>
+Feature extraction of documents was done using TF-IDF algorithm. <br>
+And I desinged neural networks several times and compared the results.<br>
+Implementation was done on Keras <br>
+I uploaded md files that contain result analysis.
+</div>
+
 <h5>
 </h5>
 ### Kaggle
