@@ -33,6 +33,10 @@ It was to use one of C library, "flex/bison" <br>
 Using this, I made a math expression parser <br>
 & Kotlin Parser switching Kotlin code to Java code
 </div>
+
+<h2>
+  Kaggle
+  </h2>
 <div>
 Codes that I submitted to kaggle competitions.<br>
 Especially, I participated in 'Bengali.AI Handwritten Grapheme Classification' competition.<br>
