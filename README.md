@@ -39,11 +39,30 @@ BD  (Big Data)
 <div>
 My project was to classify given face images as male or female.<br>
 I used Kernel SVM and I developed some kernel function optimized to this problem.<br>
-But, it didn't better<br>
-I implemented on Python using SciPy library
+But, it didn't better. I implemented on Python using SciPy library
 </div>
-
-
+<h4>
+DB (Database>
+</h4>
+<div>
+Three works uploaded.<br>
+First one was to implement B+ tree on C.<br>
+Second one was to implement simple web page using Django.<br>
+Last one was to implement simple multi threading using Hadoop.
+</div>
+<h4>
+ML (Machine Learning>
+</h4>
+<div>
+  There are four works and one term project. Works were usually done on skeleton codes. <br>
+  All implementations were done on python. Works were implemented using only numpy library. And term project was implemented on Keras.<br>
+First One was to implement Logistic regression.<br>
+Second One was to implement multi class classifier using single neural layer.<br>
+Third One was to implement Deep Neural Network.<br>
+Fourth One was to implement CNN(Convolutional Neural Network).<br>
+  The project was about noisy data detection. <br>
+  I implemented based on 'Identifying Mislabeled Data using the Area Under the Margin Ranking' paper.<br>
+  </div>
 <h2>
   Kaggle
   </h2>
