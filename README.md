@@ -29,6 +29,11 @@ I uploaded several works.</div>
 PL  (Programming Language)
 </h3>
 <div>
+It was to use one of C library, "flex/bison" <br>
+Using this, I made a math expression parser <br>
+& Kotlin Parser switching Kotlin code to Java code
+</div>
+<div>
 Codes that I submitted to kaggle competitions.<br>
 Especially, I participated in 'Bengali.AI Handwritten Grapheme Classification' competition.<br>
 Here I used 'Efficientnet' for multi-label classification on Keras<br>
