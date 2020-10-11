@@ -7,9 +7,9 @@ I am an undergraduate student of Sungkyunkwan University Computer Engineering ma
 I have taken many courses, and here I uploaded my works I have done on lectures. <br>
 Below are explanations about works <br>
 </div>
-<h4>
-AI (Introduction to Aritificial Inteligence)
-</h4>
+<h3>
+AI (Aritificial Inteligence)
+</h3>
 <div>
 I uploaded my project. It was to classify documents. <br>
 Feature extraction of documents was done using TF-IDF algorithm. <br>
@@ -17,10 +17,15 @@ And I desinged neural networks several times and compared the results.<br>
 Implementation was done on Keras <br>
 I uploaded md files that contain result analysis.
 </div>
-
-<h5>
-</h5>
-### Kaggle
+<h3>
+CV (Computer Vision)
+</h3>
+<div>
+I uploaded several works.<br>
+**First One** was to implement edge detector and corner detector using Convolution Algorithm with several filters. <br>
+**Second One ** was to implement feature matching and warping. <br>
+**Last one** was to implement image searching. I implemented this using clustering on image features extracted using SIFT. <br>
+</div>
 <h2>
 Codes that I submitted to kaggle competitions.<br>
 Especially, I participated in 'Bengali.AI Handwritten Grapheme Classification' competition.<br>
