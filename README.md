@@ -22,7 +22,7 @@ CV (Computer Vision)
 </h3>
 <div>
 I uploaded several works.</div>
-**First One** <div> was to implement edge detector and corner detector using Convolution Algorithm with several filters. </div>
+*First One* <div> was to implement edge detector and corner detector using Convolution Algorithm with several filters. </div>
 **Second One** <div> was to implement feature matching and warping. </div>
 **Last One** <div> was to implement image searching. I implemented this using clustering on image features extracted using SIFT. </div>
 <h2>
