@@ -1,11 +1,11 @@
 <h1> TaehyungGil Portfolio </h1>
-<h3>
+<h2>
 SKKU
-</h3>
-<h4>
+</h2>
+<div>
 I am an undergraduate student of Sungkyunkwan University Computer Engineering major. <br>
 I have taken many courses, and here I uploaded my works I have done on lectures. <br>
-</h4>
+</div>
 <h4>
 AI (Introduction to Aritificial Inteligence)
 </h4>
