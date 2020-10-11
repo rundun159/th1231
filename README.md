@@ -25,9 +25,9 @@ I uploaded several works.</div>
 <div>First One was to implement edge detector and corner detector using Convolution Algorithm with several filters. </div>
 <div>Second One was to implement feature matching and warping. </div>
 <div>Last One was to implement image searching. I implemented this using clustering on image features extracted using SIFT. </div>
-<h3>
+<h4>
 PL  (Programming Language)
-</h3>
+</h4>
 <div>
 It was to use one of C library, "flex/bison" <br>
 Using this, I made a math expression parser <br>
