@@ -4,20 +4,41 @@
 <h2> SKKU </h2>
 <div>
 I uploaded some works I have done on lectures. Works include assignments, projects.<br>
-AI (Artificial Intelligence) 
-<h3>
-SKKU
-</h3>
-<div>
-I am an undergraduate student of Sungkyunkwan University Computer Engineering major. <br>
-I have taken many courses, and here I uploaded my works I have done on lectures. <br>
-Below are explanations about works <br>
 3_1 : AI (Aritificial Inteligence) CV (Computer Vision) PL (Programming Language)<br>
 3_2 : BD (BigData Analysis) DB (Database) ML (Machine Learning)<br>
-	</div>
+</div>
+<h2> MathMatical_MultiLine_Segmentation </h2>
+<div>
+I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
+It was developed on C++ using openCV library.
+</div>
+<h2> Problem Solving</h2>
+<div>
+I solved some algorithm problems using C++ & python. <br>
+I uploaded my codes.
+</div>
+<h2>
+ToBigs
+</h2>
+<div>
+ToBigs(http://www.datamarket.kr/xe/page_SKdp53) is a union club where students from variety majors and campuses learn machine learning algorithms. <br>
+Here, I uploaded some assignments I submitted. <br>
+</div>
+<h2>
+Kaggle
+</h2>
+<div>
+I joined 'Bengali.AI handwritten grapheme classification' competition.<br>
+</div>
 
 <h1> Detailed Explanation</h1>
 <h2> SKKU </h2>
+<div>
+	I am an undergraduate student of Sungkyunkwan University Computer Engineering major. <br>
+I have taken many courses, and here I uploaded my works I have done on lectures. <br>
+Below are explanations about works <br>
+
+</div>
 <h4> AI (Artificial Intelligence) </h4>
 <div>
 I uploaded my project. It was to classify documents. <br>
