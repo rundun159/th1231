@@ -33,6 +33,16 @@ It was to use one of C library, "flex/bison" <br>
 Using this, I made a math expression parser <br>
 & Kotlin Parser switching Kotlin code to Java code
 </div>
+<h4>
+BD  (Big Data)
+</h4>
+<div>
+My project was to classify given face images as male or female.<br>
+I used Kernel SVM and I developed some kernel function optimized to this problem.<br>
+But, it didn't better<br>
+I implemented on Python using SciPy library
+</div>
+
 
 <h2>
   Kaggle
