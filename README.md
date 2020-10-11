@@ -15,6 +15,10 @@ Below are explanations about works <br>
 3_1 : AI (Aritificial Inteligence) CV (Computer Vision) PL (Programming Language)<br>
 3_2 : BD (BigData Analysis) DB (Database) ML (Machine Learning)<br>
 	</div>
+
+<h1> Detailed Explanation</h1>
+<h2> SKKU </h2>
+<h4> AI (Artificial Intelligence) </h4>
 <div>
 I uploaded my project. It was to classify documents. <br>
 Feature extraction of documents was done using TF-IDF algorithm. <br>
