@@ -1,9 +1,7 @@
-# TaehyungGil Portfolio
-<h4>
-This is what I have Done
-</h4>
-
-### SKKU
+<h1> TaehyungGil Portfolio </h1>
+<h3>
+SKKU
+</h3>
 <h4>
 I am an undergraduate student of Sungkyunkwan University Computer Engineering major. <br>
 I have taken many courses, and here I uploaded my works I have done on lectures. <br>
