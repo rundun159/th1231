@@ -94,6 +94,18 @@ Fourth One was to implement CNN(Convolutional Neural Network).<br>
   I implemented based on 'Identifying Mislabeled Data using the Area Under the Margin Ranking' paper.<br>
   </div>
 
+<h2> MathMatical_MultiLine_Segmentation </h2>
+<div>
+I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
+It was developed on C++ using openCV library.<br>
+I designed my own algorithm, and I made it on recognizing matrix, fraction, limitation, and summation expression as one line, rather than recognizing them as several lines. It was developed without using machine learning.
+</div>
+<h2> Problem Solving</h2>
+<div>
+I solved some algorithm problems using C++ & python. <br>
+I uploaded my codes.
+</div>
+
 <h2>
 	ToBigs
 </h2>
