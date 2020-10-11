@@ -22,9 +22,9 @@ CV (Computer Vision)
 </h3>
 <div>
 I uploaded several works.</div>
-<div>*First One* </div><div> was to implement edge detector and corner detector using Convolution Algorithm with several filters. </div>
-** Second One ** <div> was to implement feature matching and warping. </div>
-** Last one ** <div> was to implement image searching. I implemented this using clustering on image features extracted using SIFT. </div>
+**First One** <div> was to implement edge detector and corner detector using Convolution Algorithm with several filters. </div>
+**Second One** <div> was to implement feature matching and warping. </div>
+**Last One** <div> was to implement image searching. I implemented this using clustering on image features extracted using SIFT. </div>
 <h2>
 Codes that I submitted to kaggle competitions.<br>
 Especially, I participated in 'Bengali.AI Handwritten Grapheme Classification' competition.<br>
