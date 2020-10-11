@@ -98,12 +98,7 @@ Fourth One was to implement CNN(Convolutional Neural Network).<br>
 <div>
 I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
 It was developed on C++ using openCV library.<br>
-I designed my own algorithm, and I made it on recognizing matrix, fraction, limitation, and summation expression as one line, rather than recognizing them as several lines. It was developed without using machine learning.
-</div>
-<h2> Problem Solving</h2>
-<div>
-I solved some algorithm problems using C++ & python. <br>
-I uploaded my codes.
+I designed my own algorithm, and I made it on recognizing matrix, fraction, limitation, and summation expression as one line, rather than recognizing them as several lines. It was developed without using machine learning algorithms.
 </div>
 
 <h2>
@@ -122,8 +117,6 @@ Week7 : Deeplearning Framework<br>
 Week8 : CNN / NLP<br>
 Week9 : Reinforcement Learning<br>
 </div>
-
-
 <h2>
   Kaggle
   </h2>
