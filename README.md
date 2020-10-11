@@ -1,15 +1,20 @@
 <h1> TaehyungGil Portfolio </h1>
-<h2>
+
+<h1> Brief Explanation</h1>
+<h2> SKKU </h2>
+<div>
+I uploaded some works I have done on lectures. Works include assignments, projects.<br>
+AI (Artificial Intelligence) 
+<h3>
 SKKU
-</h2>
+</h3>
 <div>
 I am an undergraduate student of Sungkyunkwan University Computer Engineering major. <br>
 I have taken many courses, and here I uploaded my works I have done on lectures. <br>
 Below are explanations about works <br>
-</div>
-<h4>
-AI (Aritificial Inteligence)
-</h4>
+3_1 : AI (Aritificial Inteligence) CV (Computer Vision) PL (Programming Language)<br>
+3_2 : BD (BigData Analysis) DB (Database) ML (Machine Learning)<br>
+	</div>
 <div>
 I uploaded my project. It was to classify documents. <br>
 Feature extraction of documents was done using TF-IDF algorithm. <br>
