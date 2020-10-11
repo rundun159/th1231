@@ -25,9 +25,12 @@ I uploaded several works.</div>
 <div>First One was to implement edge detector and corner detector using Convolution Algorithm with several filters. </div>
 <div>Second One was to implement feature matching and warping. </div>
 <div>Last One was to implement image searching. I implemented this using clustering on image features extracted using SIFT. </div>
-<h2>
+<h3>
+PL  (Programming Language)
+</h3>
+<div>
 Codes that I submitted to kaggle competitions.<br>
 Especially, I participated in 'Bengali.AI Handwritten Grapheme Classification' competition.<br>
 Here I used 'Efficientnet' for multi-label classification on Keras<br>
 The model learned on MNIST Data, first. And it was transfer learned on given Bengali Data<br>
-</h2>
+  </div>
