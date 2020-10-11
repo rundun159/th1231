@@ -21,11 +21,10 @@ I uploaded md files that contain result analysis.
 CV (Computer Vision)
 </h3>
 <div>
-I uploaded several works.<br>
-  <u>First One</u> was to implement edge detector and corner detector using Convolution Algorithm with several filters. <br>
-<u>Second One</u> was to implement feature matching and warping. <br>
-<u>Last one</u> was to implement image searching. I implemented this using clustering on image features extracted using SIFT. <br>
-</div>
+I uploaded several works.</div>
+** First One** <div> was to implement edge detector and corner detector using Convolution Algorithm with several filters. </div>
+** Second One ** <div> was to implement feature matching and warping. </div>
+** Last one ** <div> was to implement image searching. I implemented this using clustering on image features extracted using SIFT. </div>
 <h2>
 Codes that I submitted to kaggle competitions.<br>
 Especially, I participated in 'Bengali.AI Handwritten Grapheme Classification' competition.<br>
