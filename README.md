@@ -21,14 +21,14 @@ I uploaded my codes.
 ToBigs
 </h2>
 <div>
-ToBigs(http://www.datamarket.kr/xe/page_SKdp53) is a union club where students from variety majors and campuses learn machine learning algorithms. <br>
+ToBigs(http://www.datamarket.kr/xe/page_SKdp53) is a union club where students from variety majors and campuses learn machine learning algorithms.
 Here, I uploaded some assignments I submitted. <br>
 </div>
 <h2>
 Kaggle
 </h2>
 <div>
-I joined 'Bengali.AI handwritten grapheme classification' competition.<br>
+I joined 'Bengali.AI handwritten grapheme classification' competition.(https://www.kaggle.com/c/bengaliai-cv19)<br>
 </div>
 
 <h1> Detailed Explanation</h1>
