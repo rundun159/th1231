@@ -52,8 +52,7 @@ public:
                         dfs_q.push(new QNode(0,node_idx));
                     }
                 delete(front_qnode);
-            }
-            
+            }            
             for(int i = 1; i<n;i++)
                 if(!visited[i])
                 {
@@ -84,11 +83,9 @@ public:
                                 
                             }
                         }
-                        
                         delete(front_qnode);
                     }
                 }
-
         return 1;
     }
 };
