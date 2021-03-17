@@ -7,10 +7,14 @@
 VLDB(Very Large Database) is a labatory in SKKU(Sungkyunkwan University) researching optimization of Database on SSD.<br>
 I'm working here as an intern. I'm optimizing space management of MySQL on SSD.<br>
 </div>
+<h2> 2020 AI Grand Challenge</h2>
+<div>
+'Korean Ministry of Science and ICT' hold AI competition named '2020 AI Grand Challenge'. <br/>
+I participated in the computer vision competition of that in 1st and 2nd round as a member of  Computer vision start-up, 'Nuvi Lab'. And won 5th and 3rd winner in each round.<br/><br/>
+</div>
 <h2> MathMatical MultiLine Segmentation </h2>
 <div>
-I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
-It was developed on C++ using openCV library.
+I implemented a system from scratch which corrects skewnewss and performs line segmentation on handwritten multi-line mathematical expressions.<br>
 </div>
 
 <h2> SKKU </h2>
@@ -45,14 +49,28 @@ I joined 'Bengali.AI handwritten grapheme classification' competition.(https://w
 <hr></hr>
 <h2> VLDB </h2>
 <div>
-1. I implemented greedy garbage collection using simple SSD simulator from Operating System:Three Easy Pieces(https://pages.cs.wisc.edu/~remzi/OSTEP/).<br>
+1. I implemented greedy garbage collection using simple SSD simulator from Operating System:Three Easy Pieces(https://pages.cs.wisc.edu/~remzi/OSTEP/).<br><br>
 2. I analyzed TRIM ON/OFF differences on YCSB using RocksDB. 'YCSB_About_Result.md' file is the simple report.</div>
 <hr></hr>
+
+<h2> 2020 AI Grand Challenge </h2>
+<div>
+I did EDA, pre-processing, trained model, and implemented the total pipeline with other members.<br/>
+I trained single-label classifiers and tried some methodologies to make it perform better.
+<br/>
+I added certificate pdf in 'certificate' directory.
+<hr></hr>
+
 <h2> MathMatical MultiLine Segmentation </h2>
 <div>
-I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
-It was developed on C++ using openCV library.<br>
-I designed my own algorithm, and I made it on recognizing matrix, fraction, limitation, and summation expression as one line, rather than recognizing them as several lines. It was developed without using machine learning algorithms.
+This was developed on C++ using openCV library.
+It was developed without using machine learning algorithms.
+<br><br>
+It consists of three steps.<br>
+1. It detects the skewnewss of handwritten lines using huff transform algorithm.  <br>
+2. It corrects the skewnewss using OpenCV function. <br>
+3. It performs line segmentation following my own algorithm. <br><br>
+I implemented this system on my own, and this one works well on recognizing matrix, fraction, limitation, and summation expression as one line, rather than recognizing them as several lines.
 </div>
 <hr></hr>
 
@@ -68,7 +86,7 @@ Below are explanations about works <br>
 I uploaded my project. It was to classify documents. <br>
 Feature extraction of documents was done using TF-IDF algorithm. <br>
 And I desinged neural networks several times and compared the results.<br>
-Implementation was done on Keras <br>
+It was implemented using Keras <br>
 I uploaded md files that contain result analysis.
 </div>
 <h4>
@@ -76,9 +94,10 @@ CV (Computer Vision)
 </h4>
 <div>
 I uploaded several works.</div>
-<div>First One was to implement edge detector and corner detector using Convolution Algorithm with several filters. </div>
-<div>Second One was to implement feature matching and warping. </div>
-<div>Last One was to implement image searching. I implemented this using clustering on image features extracted using SIFT. </div>
+<div>
+1. Implementations of edge detector and corner detector using Convolution Algorithm with several filters. <br/>
+2. Implementations of  feature matching and warping. <br/>
+3. Implementations of  image searching. I implemented this using clustering on image features extracted using SIFT. </div>
 <h4>
 PL  (Programming Language)
 </h4>
@@ -93,28 +112,28 @@ BD  (Big Data)
 <div>
 My project was to classify given face images as male or female.<br>
 I used Kernel SVM and I developed some kernel function optimized to this problem.<br>
-But, it didn't work better. I implemented on Python using SciPy library
+But, it didn't perform better. I implemented on Python using SciPy library.
 </div>
 <h4>
 DB (Database)
 </h4>
 <div>
-Three works uploaded.<br>
-First one was to implement B+ tree on C.<br>
-Second one was to implement simple web page using Django.<br>
-Last one was to implement simple multi threading using Hadoop.
+Three implementations uploaded.<br>
+1. B+ tree using C.<br>
+2. simple web page using Django.<br>
+3. simple multi threading using Hadoop.
 </div>
 <h4>
 ML (Machine Learning)
 </h4>
 <div>
-  There are four works and one term project. Works were usually done on skeleton codes. <br>
-  All implementations were done on python. Works were implemented using only numpy library. And term project was implemented on Keras.<br>
-First One was to implement Logistic regression.<br>
-Second One was to implement multi class classifier using single neural layer.<br>
-Third One was to implement Deep Neural Network.<br>
-Fourth One was to implement CNN(Convolutional Neural Network).<br>
-  The project was about noisy data detection. <br>
+  There are four implementations and one term project. Works were usually done on skeleton codes. <br>
+  They are all implemented using python.And Numpy and Keras libraries are used.<br>
+1. Logistic regression.<br>
+2. multi class classifier using single neural layer.<br>
+3. Deep Neural Network.<br>
+4. CNN(Convolutional Neural Network).<br>
+* The project was about noisy data detection. <br>
   I implemented based on 'Identifying Mislabeled Data using the Area Under the Margin Ranking' paper.<br>
   </div>
 
@@ -122,10 +141,10 @@ Fourth One was to implement CNN(Convolutional Neural Network).<br>
 AL (Algorithm)
 </h4>
 <div>
-Three works are uploaded. All of them are implemented on C<br>
-First one was to solve sorting problem using Bitmask and Radix sort on C.<br>
-Second one was to solve sorting problem using Dynamic Programming.<br>
-Last one was to parse input string and encode them using Huffman Tree.
+Three implementations are uploaded. All of them are implemented using C<br>
+1. Solving sorting problem using Bitmask and Radix sort on C.<br>
+2. Solving sorting problem using Dynamic Programming.<br>
+3. Parsing input string and encoding them using Huffman Tree.
 </div>
 <hr></hr>
 <h2>
