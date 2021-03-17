@@ -7,7 +7,7 @@
 VLDB(Very Large Database) is a labatory in SKKU(Sungkyunkwan University) researching optimization of Database on SSD.<br>
 I'm working here as an intern. I'm optimizing space management of MySQL on SSD.<br>
 </div>
-<h2> MathMatical_MultiLine_Segmentation </h2>
+<h2> MathMatical MultiLine Segmentation </h2>
 <div>
 I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
 It was developed on C++ using openCV library.
@@ -48,7 +48,7 @@ I joined 'Bengali.AI handwritten grapheme classification' competition.(https://w
 1. I implemented greedy garbage collection using simple SSD simulator from Operating System:Three Easy Pieces(https://pages.cs.wisc.edu/~remzi/OSTEP/).<br>
 2. I analyzed TRIM ON/OFF differences on YCSB using RocksDB. 'YCSB_About_Result.md' file is the simple report.</div>
 <hr></hr>
-<h2> MathMatical_MultiLine_Segmentation </h2>
+<h2> MathMatical MultiLine Segmentation </h2>
 <div>
 I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
 It was developed on C++ using openCV library.<br>
