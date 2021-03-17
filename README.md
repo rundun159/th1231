@@ -1,18 +1,28 @@
 <h1> TaehyungGil Portfolio </h1>
 
 <h1> Brief Explanation</h1>
-<h2> SKKU </h2>
+
+<h2> VLDB </h2>
 <div>
-I uploaded some works I have done on lectures. Works include assignments, projects.<br>
-3_1 : AI (Aritificial Inteligence) CV (Computer Vision) PL (Programming Language)<br>
-3_2 : BD (BigData Analysis) DB (Database) ML (Machine Learning)<br>
+VLDB(Very Large Database) is a labatory in SKKU(Sungkyunkwan University) researching optimization of Database on SSD.<br>
+I'm working here as an intern. I'm optimizing space management of MySQL on SSD.<br>
 </div>
 <h2> MathMatical_MultiLine_Segmentation </h2>
 <div>
 I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
 It was developed on C++ using openCV library.
 </div>
+
+<h2> SKKU </h2>
+<div>
+I uploaded some works I have done on lectures. Works include assignments, projects.<br>
+3_1 : AI (Aritificial Inteligence) CV (Computer Vision) PL (Programming Language)<br>
+3_2 : BD (BigData Analysis) DB (Database) ML (Machine Learning)<br>
+4_1 : AL (Algorithm)<br>
+</div>
+
 <h2> Problem Solving</h2>
+
 <div>
 I solved some algorithm problems using C++ & python. <br>
 I uploaded my codes.
@@ -32,12 +42,26 @@ I joined 'Bengali.AI handwritten grapheme classification' competition.(https://w
 </div>
 
 <h1> Detailed Explanation</h1>
+<hr></hr>
+<h2> VLDB </h2>
+<div>
+1. I implemented greedy garbage collection using simple SSD simulator from Operating System:Three Easy Pieces(https://pages.cs.wisc.edu/~remzi/OSTEP/).<br>
+2. I analyzed TRIM ON/OFF differences on YCSB using RocksDB. 'YCSB_About_Result.md' file is the simple report.</div>
+<hr></hr>
+<h2> MathMatical_MultiLine_Segmentation </h2>
+<div>
+I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
+It was developed on C++ using openCV library.<br>
+I designed my own algorithm, and I made it on recognizing matrix, fraction, limitation, and summation expression as one line, rather than recognizing them as several lines. It was developed without using machine learning algorithms.
+</div>
+<hr></hr>
+
+
 <h2> SKKU </h2>
 <div>
-	I am an undergraduate student of Sungkyunkwan University Computer Engineering major. <br>
+I am an undergraduate student of Sungkyunkwan University Computer Engineering major. <br>
 I have taken many courses, and here I uploaded my works I have done on lectures. <br>
 Below are explanations about works <br>
-
 </div>
 <h4> AI (Artificial Intelligence) </h4>
 <div>
@@ -69,7 +93,7 @@ BD  (Big Data)
 <div>
 My project was to classify given face images as male or female.<br>
 I used Kernel SVM and I developed some kernel function optimized to this problem.<br>
-But, it didn't better. I implemented on Python using SciPy library
+But, it didn't work better. I implemented on Python using SciPy library
 </div>
 <h4>
 DB (Database)
@@ -94,13 +118,16 @@ Fourth One was to implement CNN(Convolutional Neural Network).<br>
   I implemented based on 'Identifying Mislabeled Data using the Area Under the Margin Ranking' paper.<br>
   </div>
 
-<h2> MathMatical_MultiLine_Segmentation </h2>
+<h4>
+AL (Algorithm)
+</h4>
 <div>
-I implemented a system which does skew detection and line segmentation on handwritten multi-line mathematical expressions.<br>
-It was developed on C++ using openCV library.<br>
-I designed my own algorithm, and I made it on recognizing matrix, fraction, limitation, and summation expression as one line, rather than recognizing them as several lines. It was developed without using machine learning algorithms.
+Three works are uploaded. All of them are implemented on C<br>
+First one was to solve sorting problem using Bitmask and Radix sort on C.<br>
+Second one was to solve sorting problem using Dynamic Programming.<br>
+Last one was to parse input string and encode them using Huffman Tree.
 </div>
-
+<hr></hr>
 <h2>
 	ToBigs
 </h2>
@@ -117,6 +144,7 @@ Week7 : Deeplearning Framework<br>
 Week8 : CNN / NLP<br>
 Week9 : Reinforcement Learning<br>
 </div>
+<hr></hr>
 <h2>
   Kaggle
   </h2>
@@ -126,3 +154,4 @@ Especially, I participated in 'Bengali.AI Handwritten Grapheme Classification' c
 Here I used 'Efficientnet' for multi-label classification on Keras<br>
 The model learned on MNIST Data, first. And it was transfer learned on given Bengali Data<br>
   </div>
+<hr></hr>
