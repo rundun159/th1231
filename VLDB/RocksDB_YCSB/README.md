@@ -30,4 +30,3 @@ ex) ./micron.sh micron_log.log
 
 1. rocksdb_setup.sh Argument 추가
 2. workload_test 에서 Count 수정
-3.
