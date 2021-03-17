@@ -29,3 +29,8 @@ The multi lines image is segmented as lines, and images below are returned.
 
 #### Line6
 <img src=./Results/line6.jpg  title="TRIM_OFF_cun_waf" alt="TRIM_OFF_cun_waf"></img><br/>
+
+# Algorithm Explanation
+<h6>
+The algorithm is explained in '/.Algorithm_Explanation/0829_algorithm.pdf'
+</h6>
