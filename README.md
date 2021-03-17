@@ -1,7 +1,7 @@
 <h1> TaehyungGil Portfolio </h1>
 
+<hr></hr>
 <h1> Brief Explanation</h1>
-
 <h2> VLDB </h2>
 <div>
 VLDB(Very Large Database) is a labatory in SKKU(Sungkyunkwan University) researching optimization of Database on SSD.<br>
@@ -44,6 +44,7 @@ Kaggle
 <div>
 I joined 'Bengali.AI handwritten grapheme classification' competition.(https://www.kaggle.com/c/bengaliai-cv19)<br>
 </div>
+<hr></hr>
 
 <h1> Detailed Explanation</h1>
 <hr></hr>
